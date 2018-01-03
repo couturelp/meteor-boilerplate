@@ -2,7 +2,6 @@ import React  from 'react';
 import { Link } from 'react-router-dom';
 import {Accounts} from 'meteor/accounts-base'
 
-import { withRouter } from "react-router-dom";
 import history from './../routes/history' 
 
 export default class Reset extends React.Component {

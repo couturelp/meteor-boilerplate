@@ -2,7 +2,6 @@ import React  from 'react';
 import { Link } from 'react-router-dom';
 import  { Meteor } from 'meteor/meteor';
 
-import { withRouter } from "react-router-dom";
 import history from './../routes/history' 
 
 export default class RequestReset extends React.Component {

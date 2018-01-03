@@ -13,6 +13,7 @@ Meteor.startup(() => {
 
     if(Meteor.isServer) {
         process.env.MAIL_URL="smtp://account@quantik.ca:***API****@smtp.mandrillapp.com:587/";
+
         Accounts.emailTemplates.siteName = "Meteor-BoilerPlate";
         Accounts.emailTemplates.from = "Meteor-BoilerPlate <meteor-boiler@gmaq.ca>";
     }
